@@ -35,7 +35,7 @@ $$
 Матрица Якоби:
 
 $$Dg(r, \theta) =\begin{pmatrix}
-\frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta} \\
+\frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta} \\[2mm]
 \frac{\partial y}{\partial r} & \frac{\partial y}{\partial \theta}
 \end{pmatrix}=\begin{pmatrix}
 \cos \theta & -r \sin \theta \\[1mm]
