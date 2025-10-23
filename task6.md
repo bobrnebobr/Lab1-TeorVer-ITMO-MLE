@@ -29,7 +29,7 @@ $$
 Обратный переход будет выглядеть следующим образом:
 
 $$
-g^{-1}: (x, y) \rightarrow (r=\sqrt{x^2+y^2}, \theta =\operatorname{atan2}(y, x)
+g^{-1}: (x, y) \rightarrow (r=\sqrt{x^2+y^2}, \theta =\mathrm{atan2}(y, x)
 $$
 
 Матрица Якоби:
@@ -37,7 +37,7 @@ $$
 $$
 Dg(r, \theta) =
 \begin{pmatrix}
-\frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta} \\[2mm]
+\frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta} \\
 \frac{\partial y}{\partial r} & \frac{\partial y}{\partial \theta}
 \end{pmatrix}
 =
